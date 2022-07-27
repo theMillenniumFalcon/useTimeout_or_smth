@@ -1,0 +1,23 @@
+{
+  "name": "usetimeout_or_smth",
+  "version": "1.0.0",
+  "description": "Declarative React hook for setTimeout",
+  "main": "dist.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "build": "babel index.js -o dist.js"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.18.9",
+    "@babel/core": "^7.18.9",
+    "@babel/preset-env": "^7.18.9",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
